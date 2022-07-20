@@ -23,13 +23,13 @@ import Icon from '@components/icon'
 
 const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
   // expand our header data
-  const {
-    // promo,
-    menuDesktopLeft,
-    menuDesktopRight,
-    menuMobilePrimary,
-    menuMobileSecondary,
-  } = data
+  // const {
+  //   promo,
+  //   menuDesktopLeft,
+  //   menuDesktopRight,
+  //   menuMobilePrimary,
+  //   menuMobileSecondary,
+  // } = data
 
   // setup states
   const [isMobileNavOpen, setMobileNavOpen] = useState(false)
